@@ -47,6 +47,7 @@ public class WebService{
         return webDAO.updateMessageById(message_text, id);
     }
 
+
     public List<Message> getAllMessagesByAccoundId(int id){
         return webDAO.getAllMessagesByAccoundId(id);
     }
